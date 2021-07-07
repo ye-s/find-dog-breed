@@ -1,37 +1,20 @@
 ## What I have done:
 
-1. Improved loading message, add loader spinner instead.
-2. Add custom hook to fetch advices data and process different responses states.
-3. Added different test messages for response status.
-4. Added cache for fetched advices, it's based on search url.
-5. Added basic tests.
-6. Updated app structure, split functionality and views.
-7. Added some Types where needed.
+1. Added Dropzone to drag and drop image on desktop, on mobile it work as button.
+2. Added mobile UI (at least basic support)
+3. Added loader spinner to show while waiting for Model to load or to fetch data.
+4. Add custom hook to fetch dog images urls and process different responses states.
+5. Added different test messages for response status.
+6. Added cache for fetched advices, it's based on search url (requires tweeking).
+7. Added basic tests.
+8. Used simple css files to structure styling.
+9. Added some Types where needed.
 
 ## What else could/should be done:
 
 1. Make basic fetch hook, not advice specific and functional wrapper for advices.
-2. Split components even more, for example add notification message component.
+2. Split components even more.
 3. Add styles, use styled-components.
-4. Add more tests, check state changes, check view state for different response.
-5. Use another Loader (that one was just for example).
-6. Add pagination or infinity scroll.
-
-# EclecticIQ UI Engineer Code Challenge
-
-We have developed a small application that is functional but naively written.
-
-## What is expected from you?
-
-We would like you to elaborate on two topics:
-
-1. Which parts of the application can be improved and why?
-2. How would you test this application and which strategies would you use?
-
-## What should you deliver?
-
-The format is totally up to you. It can be a simple document, like in a code review, or you can fork it and implement your solutions on top of it, or even record a screencast! Whatever suits you best.
-
-## Info about the application
-
-If you would like to mess around with the application, make sure to "Disable cache" on your browser's network settings. Otherwise, API requests will be cached, and it will take a while for their responses to expire.
+4. Add more tests.
+5. Improve lazy loading.
+6. Generally there are a lot of room for improvement I hope we can discuss it togther (some stuff was left intentionally)
